@@ -1,4 +1,4 @@
-If you want to try the app: <a href="https://tictactoe-angular-biti.netlify.app" target="_blank" rel="noreferrer">https://tictactoe-angular-biti.netlify.app</a> 
+If you want to try the app: <a href="https://tictactoe-angular-biti.netlify.app" target="_blank">https://tictactoe-angular-biti.netlify.app</a> 
 
 
 # AppTest
