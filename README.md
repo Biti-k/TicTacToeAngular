@@ -1,3 +1,6 @@
+If you want to try the app: https://tictactoe-angular-biti.netlify.app/TicTacToe-Angular-/
+
+
 # AppTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
