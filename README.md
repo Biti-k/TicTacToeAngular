@@ -1,4 +1,4 @@
-If you want to try the app: https://tictactoe-angular-biti.netlify.app/TicTacToe-Angular-/
+If you want to try the app: https://tictactoe-angular-biti.netlify.app
 
 
 # AppTest
