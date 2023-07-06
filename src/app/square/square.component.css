@@ -1,0 +1,17 @@
+.container p{
+    animation-name: pAparece;
+    animation-duration: 600ms;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pAparece{
+    0%{
+        transform: scale(1.8);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}

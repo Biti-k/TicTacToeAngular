@@ -1,0 +1,83 @@
+p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.buttonContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonContainer button{
+    height: 60px;
+    width: 140px;
+    color: white;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px rgb(77, 0, 77) solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 350ms ;
+}
+
+.buttonContainer button:hover{
+    animation-name: moveButton;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.buttonContainer button:active{
+    color: yellow;
+}
+
+@keyframes moveButton {
+    0% {
+      transform: translateY(3px);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(3px);
+    }
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0;
+    outline: 6px solid rgb(10, 0, 22);
+    outline-offset: -3px;
+}
+
+app-square{
+    border: 3px rgb(240, 240, 240) solid;
+    height: 200px;
+    width: 200px;
+}
+
+.mainContainer{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+app-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    user-select: none;
+}
